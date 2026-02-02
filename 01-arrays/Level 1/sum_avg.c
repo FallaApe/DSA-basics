@@ -1,4 +1,15 @@
-//Taking input from user, Find the sum and average of array elements.
+/*
+Question:
+Given an array of integers, calculate the sum and average of all elements
+in the array.
+
+Note:
+- The number of elements is provided by the user.
+- The array elements are entered by the user.
+- The solution should use array traversal.
+- Average should be displayed up to two decimal places.
+*/
+
 
 #include <stdio.h>
 int main() {
@@ -26,4 +37,5 @@ int main() {
     printf("Average of array elements = %.2f\n", average);
 
     return 0;
+
 }
